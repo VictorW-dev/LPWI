@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AVA TECH</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<div class="background-wrap">
+    <div class="background"></div>
+</div>
+
+<form action="tela.php" method="POST">
+    <h1 id="litheader">Sing Up</h1>
+    <div class="inset">
+        <p>
+            <input type="text" name="name" placeholder="Your name" required>
+        </p>
+        <p>
+            <input type="text" name="email" placeholder="Email address" required>
+        </p>
+        <p>
+            <input type="password" name="password" id="password" placeholder="Access code">
+            <input type="password" name="password" id="password" placeholder="Repeat access code">
+        </p>
+        <div style="text-align: center;">
+            <div class="checkboxouter">
+                <input type="checkbox" name="rememberme" id="remember" value="Remember">
+                <label class="checkbox"></label>
+            </div>
+            <label for="remember">Li e concordo com os termos de privacidade</label>
+        </div>
+        <input class="loginLoginValue" type="hidden" name="service" value="login" />
+    </div>
+
+    <div class="control">
+        <input class="button button-primary button-block" type="submit" value="AUTHORIZE">
+    </div>
+</form>
